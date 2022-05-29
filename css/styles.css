@@ -1,11 +1,163 @@
-body {font-family: 'Raleway', sans-serif;
+/*----PORTFOLIO----*/
+:root {
+    --brand-color:#2196f3;
+}
+:root {
+    --background-color:#2196f3;
+}
+:root {
+    --text-color:#000000;
+}
+body {
     font-family: 'Roboto', sans-serif;
-color: #000;}
-.nav-list-item
-{
+    color: var(--text-color);
+    
+}
+/*----Header----*/
+.webstudio {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+}
+.webstudio:hover {
+    text-decoration: underline;
+    color: var(--brand-color)
+}
+.web {
+    color: #2196f3; 
+}
+.studio {
+    color:#000000;
+}
+.menu {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    
+}
+.menu .item {
+    text-decoration: none;
+    color: #212121;
+}
+.menu .item:hover,
+.menu .item:focus {
+    text-decoration: underline;
+    color: var(--brand-color);
+}
+.menu, .list, .button {
     list-style: none;
 }
-.list {
-    list-style: none;
+/*--Lista-przycisków--*/
+.list-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }
+.list-item:hover {
+    text-decoration: underline;
+    color: var(--brand-color);
+} 
+
+.button-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border: 0px;
+}
+.button-item:hover,
+.button-item:focus,
+.button-item:active {
+    background-color: var(--background-color);
+    color: #FFFFFF;
+}
+/*--Lista-obrazków--*/
+.list-img h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-decoration: none;
+}
+.list-img h3:hover,
+.list-img h3:focus
+ {
+    text-decoration: underline;
+    color: var(--brand-color);
+    cursor: pointer;  
+}
+.list-img p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88em;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+}
+.list-img p:hover,
+.list-img p:focus {
+    text-decoration: underline;
+    color: var(--brand-color)
+}
+/*--Stopka--*/
+.footer {
+    background-color: #000000;
+}
+.studio-1 {color: #FFFFFF;
+}
+.list-adress-1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71em;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.list-adress-2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71em;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+.list-adress-1:hover,
+.list-adress-1:focus {
+    text-decoration: underline;
+    color: var(--brand-color)
+}
+.list-adress-2:hover,
+.list-adress-2:focus {
+    text-decoration: underline;
+    color: var(--brand-color);
+}
+
+
+    
+
 
