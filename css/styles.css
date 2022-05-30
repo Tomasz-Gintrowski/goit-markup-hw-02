@@ -1,4 +1,4 @@
-/*----PORTFOLIO----*/
+/*----INDEX----*/
 :root {
     --brand-color:#2196f3;
 }
@@ -8,6 +8,9 @@
 :root {
     --text-color:#000000;
 }
+:root {
+        --index-first-bg: #2f303a;
+    }
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
@@ -55,6 +58,125 @@ body {
 .menu, .list, .button {
     list-style: none;
 }
+.banner1 {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: var(--index-first-bg);
+}
+.banner1-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.banner1-title:hover {
+    text-decoration: underline;
+    color: var(--brand-color)
+}
+.main-button-banner1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+    background-color: var(--background-color);   
+}
+.main-button-banner1 {
+    text-align: center;
+}
+.main-button-banner1:hover,
+.main-button-banner1:focus,
+.main-button-banner1:active {
+    background-color: var(--background-color);
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+/*--LOREM-IPSUM--*/
+.list-item h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    text-decoration: none;
+    text-align: left;
+}
+.list-item p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+    text-align: left;
+}
+/*--Czym-się-zajmujemy--*/
+
+.title1, .title2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
+}
+/*--Nasz-zespół--*/
+.banner2 {
+    background-color: #f5f4fa;
+}
+.list-pic h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18em;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+}
+.list-pic h3:hover,
+.list-pic h3:focus {
+    text-decoration: underline;
+    color: var(--background-color);
+    cursor: pointer;
+}
+.list-pic p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18em;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+}
+.list-pic p:hover,
+.list-pic p:focus {
+    text-decoration: underline;
+    color: var(--background-color);
+    cursor: pointer;
+}
+/*--Portfolio--*/
 /*--Lista-przycisków--*/
 .list-item {
     font-family: 'Roboto';
@@ -70,7 +192,6 @@ body {
     text-decoration: underline;
     color: var(--brand-color);
 } 
-
 .button-item {
     font-family: 'Roboto';
     font-style: normal;
@@ -156,6 +277,8 @@ body {
     text-decoration: underline;
     color: var(--brand-color);
 }
+/*--Index--*/
+
 
 
     
