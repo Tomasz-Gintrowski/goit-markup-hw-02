@@ -1,4 +1,4 @@
-/*----INDEX----*/
+/*--INDEX--*/
 :root {
   --brand-color: #2196f3;
   --background-color: #2196f3;
@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
-/*----Header----*/
+/*--Header--*/
 .webstudio {
   font-family: Raleway;
   font-weight: 700;
@@ -20,7 +20,7 @@ body {
   text-decoration: none;
 }
 .webstudio:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--brand-color);
 }
 .web {
@@ -44,14 +44,26 @@ body {
 }
 .menu .item:hover,
 .menu .item:focus {
-  text-decoration: underline;
+  color: var(--brand-color);
+}
+.list-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.list-item:hover {
   color: var(--brand-color);
 }
 .menu,
-.list,
-.button {
+.list {
   list-style: none;
 }
+/*--Main--*/
 .banner1 {
   width: 1600px;
   height: 600px;
@@ -71,10 +83,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.banner1-title:hover {
-  text-decoration: underline;
-  color: var(--brand-color);
-}
 .main-button-banner1 {
   font-family: "Roboto";
   font-style: normal;
@@ -87,16 +95,17 @@ body {
   color: #ffffff;
   border: 0px;
   background-color: var(--background-color);
-}
-.main-button-banner1 {
+  cursor: pointer;
   text-align: center;
+}
+.button {
+  list-style: none;
 }
 .main-button-banner1:hover,
 .main-button-banner1:focus,
 .main-button-banner1:active {
   background-color: var(--background-color);
   color: #ffffff;
-  text-decoration: underline;
 }
 /*--LOREM-IPSUM--*/
 .list-item h3 {
@@ -149,12 +158,7 @@ body {
   color: #212121;
   text-decoration: none;
 }
-.list-pic h3:hover,
-.list-pic h3:focus {
-  text-decoration: underline;
-  color: var(--background-color);
-  cursor: pointer;
-}
+
 .list-pic p {
   font-family: "Roboto";
   font-style: normal;
@@ -165,28 +169,42 @@ body {
   color: #757575;
   text-decoration: none;
 }
-.list-pic p:hover,
-.list-pic p:focus {
-  text-decoration: underline;
-  color: var(--background-color);
-  cursor: pointer;
+/*--Footer--*/
+.footer {
+  background-color: #000000;
 }
-/*--Portfolio--*/
-/*--Lista-przycisków--*/
-.list-item {
+.studio-1 {
+  color: #ffffff;
+}
+.list-adress-1 {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: #ffffff;
   text-decoration: none;
 }
-.list-item:hover {
-  text-decoration: underline;
+.list-adress-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.list-adress-2:hover,
+.list-adress-2:focus {
   color: var(--brand-color);
 }
+
+/*--Portfolio--*/
+/*--Lista-przycisków--*/
+
 .button-item {
   font-family: "Roboto";
   font-style: normal;
@@ -214,12 +232,7 @@ body {
   color: #212121;
   text-decoration: none;
 }
-.list-img h3:hover,
-.list-img h3:focus {
-  text-decoration: underline;
-  color: var(--brand-color);
-  cursor: pointer;
-}
+
 .list-img p {
   font-family: "Roboto";
   font-style: normal;
@@ -230,46 +243,3 @@ body {
   color: #757575;
   text-decoration: none;
 }
-.list-img p:hover,
-.list-img p:focus {
-  text-decoration: underline;
-  color: var(--brand-color);
-}
-/*--Stopka--*/
-.footer {
-  background-color: #000000;
-}
-.studio-1 {
-  color: #ffffff;
-}
-.list-adress-1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-decoration: none;
-}
-.list-adress-2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-.list-adress-1:hover,
-.list-adress-1:focus {
-  text-decoration: underline;
-  color: var(--brand-color);
-}
-.list-adress-2:hover,
-.list-adress-2:focus {
-  text-decoration: underline;
-  color: var(--brand-color);
-}
-/*--Index--*/
